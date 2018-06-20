@@ -15,6 +15,7 @@
 		AEEFFB9920DAA548009C63AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEFFB9820DAA548009C63AF /* Assets.xcassets */; };
 		AEEFFB9C20DAA548009C63AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEFFB9A20DAA548009C63AF /* LaunchScreen.storyboard */; };
 		AEEFFBAB20DAAD1A009C63AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEEFFBAA20DAAD1A009C63AF /* GoogleService-Info.plist */; };
+		AEEFFBAD20DAB86D009C63AF /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFFBAC20DAB86D009C63AF /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AEEFFB9B20DAA548009C63AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEEFFB9D20DAA548009C63AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEEFFBAA20DAAD1A009C63AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AEEFFBAC20DAB86D009C63AF /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		AEEFFBA720DAA775009C63AF /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				AEEFFBAC20DAB86D009C63AF /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				AEEFFB9420DAA547009C63AF /* SecondViewController.swift in Sources */,
 				AEEFFB9020DAA547009C63AF /* AppDelegate.swift in Sources */,
 				AEEFFB9220DAA547009C63AF /* FirstViewController.swift in Sources */,
+				AEEFFBAD20DAB86D009C63AF /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +423,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3HSH3HTMU;
 				INFOPLIST_FILE = breakpoint/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arazsinjary.breakpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -435,7 +442,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3HSH3HTMU;
 				INFOPLIST_FILE = breakpoint/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arazsinjary.breakpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
