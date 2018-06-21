@@ -119,7 +119,7 @@
                                     <constraint firstItem="8Cd-M7-Vdy" firstAttribute="centerY" secondItem="9cX-4E-Cfa" secondAttribute="centerY" id="ljc-7W-vbR"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZPH-Rp-hMX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="ZPH-Rp-hMX">
                                 <rect key="frame" x="16" y="90" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="40i-71-4mg"/>

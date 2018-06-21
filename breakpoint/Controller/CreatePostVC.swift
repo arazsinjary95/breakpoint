@@ -20,6 +20,8 @@ class CreatePostVC: UIViewController {
         super.viewDidLoad()
 
         textView.delegate = self //set
+        sendBtn.bindToKeyboard()
+       // profileImage.bindToKeyboard()
     }
 
     @IBAction func sendBtnWasPressed(_ sender: Any) {
@@ -31,7 +33,7 @@ class CreatePostVC: UIViewController {
                     self.dismiss(animated: true, completion: nil)
                 } else {
                     self.sendBtn.isEnabled = true
-                    print("There was an error!")
+                    print("There was an error!") 
                 }
             }
         }
