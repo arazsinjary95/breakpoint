@@ -22,6 +22,7 @@
 		AEEFFBB520DB6B56009C63AF /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFFBB420DB6B56009C63AF /* ShadowView.swift */; };
 		AEEFFBB720DB72FB009C63AF /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFFBB620DB72FB009C63AF /* AuthService.swift */; };
 		AEEFFBB920DBB3C9009C63AF /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFFBB820DBB3C9009C63AF /* MeVC.swift */; };
+		AEEFFBBB20DBCB85009C63AF /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFFBBA20DBCB85009C63AF /* CreatePostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		AEEFFBB420DB6B56009C63AF /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		AEEFFBB620DB72FB009C63AF /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		AEEFFBB820DBB3C9009C63AF /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		AEEFFBBA20DBCB85009C63AF /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				AEEFFBAE20DADF56009C63AF /* AuthVC.swift */,
 				AEEFFBB020DB640A009C63AF /* LoginVC.swift */,
 				AEEFFBB820DBB3C9009C63AF /* MeVC.swift */,
+				AEEFFBBA20DBCB85009C63AF /* CreatePostVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				AEEFFBB720DB72FB009C63AF /* AuthService.swift in Sources */,
 				AEEFFB9020DAA547009C63AF /* AppDelegate.swift in Sources */,
 				AEEFFBB520DB6B56009C63AF /* ShadowView.swift in Sources */,
+				AEEFFBBB20DBCB85009C63AF /* CreatePostVC.swift in Sources */,
 				AEEFFB9220DAA547009C63AF /* FeedVC.swift in Sources */,
 				AEEFFBB320DB6480009C63AF /* InsetTextField.swift in Sources */,
 				AEEFFBAD20DAB86D009C63AF /* DataService.swift in Sources */,
