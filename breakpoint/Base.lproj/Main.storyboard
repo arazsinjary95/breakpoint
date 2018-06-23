@@ -461,7 +461,7 @@
         <!--Group FeedVC-->
         <scene sceneID="5dE-p8-Wcg">
             <objects>
-                <viewController id="43O-VN-IdQ" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GroupFeedVC" id="43O-VN-IdQ" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9lZ-rX-DLy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -469,7 +469,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sEu-du-be7">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="_groupstitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMl-D4-sB8">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_groupstitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMl-D4-sB8">
                                         <rect key="frame" x="87.5" y="34.5" width="200" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="fDm-bU-b2i"/>
@@ -478,7 +478,7 @@
                                         <color key="textColor" red="0.56078431370000004" green="0.81176470590000005" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="peA-HT-DTN">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="peA-HT-DTN">
                                         <rect key="frame" x="20" y="34" width="12" height="22"/>
                                         <state key="normal" image="backIcon"/>
                                         <connections>
@@ -491,6 +491,7 @@
                                     <constraint firstAttribute="height" constant="70" id="855-rT-UcN"/>
                                     <constraint firstItem="aMl-D4-sB8" firstAttribute="centerX" secondItem="sEu-du-be7" secondAttribute="centerX" id="9JI-vj-wR9"/>
                                     <constraint firstItem="peA-HT-DTN" firstAttribute="leading" secondItem="sEu-du-be7" secondAttribute="leading" constant="20" id="AIr-Ob-8Qu"/>
+                                    <constraint firstItem="peA-HT-DTN" firstAttribute="top" secondItem="sEu-du-be7" secondAttribute="top" constant="34" id="IH5-lj-jGM"/>
                                     <constraint firstItem="aMl-D4-sB8" firstAttribute="centerY" secondItem="peA-HT-DTN" secondAttribute="centerY" id="ZXH-4B-WEg"/>
                                 </constraints>
                             </view>
@@ -596,7 +597,7 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com, araz@yahoo.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="CPW-ch-rtf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com, araz@yahoo.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="CPW-ch-rtf">
                                 <rect key="frame" x="16" y="78" width="343" height="16.5"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <color key="textColor" red="0.56078431370000004" green="0.81176470590000005" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
