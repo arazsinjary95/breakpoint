@@ -69,7 +69,7 @@ class GroupFeedVC: UIViewController {
     }
     
     @IBAction func backBtnWaspressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        dismissDetail()
     }
 }
 
