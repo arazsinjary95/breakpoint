@@ -959,7 +959,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPt-MH-4qq">
-                                <rect key="frame" x="147" y="251" width="80" height="33"/>
+                                <rect key="frame" x="147" y="361" width="80" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="KhF-EV-McU"/>
                                 </constraints>
@@ -971,22 +971,42 @@
                                     <action selector="signInBtnWasPressed:" destination="Iv2-Ke-6A6" eventType="touchUpInside" id="HyY-mh-OIx"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="2Vm-3P-bec">
+                                <rect key="frame" x="142" y="251" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="ZsO-K7-jaJ"/>
+                                    <constraint firstAttribute="height" constant="90" id="hh8-Rk-RSW"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TL9-Nl-IaW">
+                                <rect key="frame" x="142" y="251" width="90" height="90"/>
+                                <connections>
+                                    <action selector="chooseImageBtnWasPressed:" destination="Iv2-Ke-6A6" eventType="touchUpInside" id="bXT-Zl-Ssc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="TL9-Nl-IaW" firstAttribute="top" secondItem="2Vm-3P-bec" secondAttribute="top" id="7VK-L5-XM6"/>
                             <constraint firstItem="OPt-MH-4qq" firstAttribute="centerX" secondItem="O22-FU-cd9" secondAttribute="centerX" id="AwZ-RL-x2b"/>
+                            <constraint firstItem="2Vm-3P-bec" firstAttribute="centerX" secondItem="O22-FU-cd9" secondAttribute="centerX" id="IZu-ZG-60z"/>
+                            <constraint firstItem="2Vm-3P-bec" firstAttribute="top" secondItem="rNB-99-pTv" secondAttribute="bottom" constant="20" id="KYB-Fk-DKX"/>
                             <constraint firstItem="rNB-99-pTv" firstAttribute="top" secondItem="jDT-DB-axK" secondAttribute="bottom" constant="20" id="Lsh-rY-9uA"/>
+                            <constraint firstItem="TL9-Nl-IaW" firstAttribute="leading" secondItem="2Vm-3P-bec" secondAttribute="leading" id="VEJ-d2-mqh"/>
+                            <constraint firstItem="OPt-MH-4qq" firstAttribute="top" secondItem="2Vm-3P-bec" secondAttribute="bottom" constant="20" id="XO6-QM-lKW"/>
+                            <constraint firstItem="TL9-Nl-IaW" firstAttribute="trailing" secondItem="2Vm-3P-bec" secondAttribute="trailing" id="YUf-Bp-dll"/>
                             <constraint firstItem="k6S-zO-7bQ" firstAttribute="trailing" secondItem="rNB-99-pTv" secondAttribute="trailing" constant="36" id="eWI-nK-eKN"/>
-                            <constraint firstItem="OPt-MH-4qq" firstAttribute="top" secondItem="rNB-99-pTv" secondAttribute="bottom" constant="20" id="lIm-yZ-bNJ"/>
                             <constraint firstItem="jDT-DB-axK" firstAttribute="top" secondItem="k6S-zO-7bQ" secondAttribute="top" id="lOv-CI-eSE"/>
                             <constraint firstItem="jDT-DB-axK" firstAttribute="leading" secondItem="k6S-zO-7bQ" secondAttribute="leading" constant="16" id="lzk-e0-LxX"/>
                             <constraint firstItem="rNB-99-pTv" firstAttribute="leading" secondItem="O22-FU-cd9" secondAttribute="leading" constant="36" id="pav-1p-Z2D"/>
+                            <constraint firstItem="TL9-Nl-IaW" firstAttribute="bottom" secondItem="2Vm-3P-bec" secondAttribute="bottom" id="v49-eN-aFV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="k6S-zO-7bQ"/>
                     </view>
                     <connections>
                         <outlet property="emailField" destination="z6M-FZ-Fff" id="sUy-X6-a3l"/>
                         <outlet property="passwordField" destination="WKE-rz-uap" id="cfr-T0-pVt"/>
+                        <outlet property="profileImage" destination="2Vm-3P-bec" id="wuI-L4-TjY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8ZM-Yu-AXp" userLabel="First Responder" sceneMemberID="firstResponder"/>

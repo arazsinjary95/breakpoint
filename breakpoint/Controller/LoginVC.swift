@@ -12,6 +12,8 @@ class LoginVC: UIViewController {
 
     @IBOutlet weak var emailField: InsetTextField!
     @IBOutlet weak var passwordField: InsetTextField!
+    //new change
+    @IBOutlet weak var profileImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +46,10 @@ class LoginVC: UIViewController {
                 })
             }
         }
+    }
+    //newchange
+    @IBAction func chooseImageBtnWasPressed(_ sender: Any) {
+        //open images
     }
     
     @IBAction func closeBtnWasPressed(_ sender: Any) {
